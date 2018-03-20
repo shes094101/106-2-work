@@ -33,6 +33,14 @@ public class Main {
                 if (z==2){System.out.println((studs[0].getChinese()+studs[1].getChinese()+studs[2].getChinese()+studs[3].getChinese()+studs[4].getChinese())/5);}
                 if (z==3){System.out.println((studs[0].getMath()+studs[1].getMath()+studs[2].getMath()+studs[3].getMath()+studs[4].getMath())/5);}
             }
+            if (y==4){System.out.println("請輸入第幾位同學");
+                int z=src.nextInt();
+                if (z==1){ System.out.println(("平均:"+(studs[0].getEnglish()+studs[0].getChinese()+studs[0].getMath())/3)+"\n"+"總分:"+(studs[0].getEnglish()+studs[0].getChinese()+studs[0].getMath()));}
+                if (z==2){ System.out.println(("平均:"+(studs[1].getEnglish()+studs[1].getChinese()+studs[1].getMath())/3)+"\n"+"總分:"+(studs[1].getEnglish()+studs[1].getChinese()+studs[1].getMath()));}
+                if (z==3){ System.out.println(("平均:"+(studs[2].getEnglish()+studs[2].getChinese()+studs[2].getMath())/3)+"\n"+"總分:"+(studs[2].getEnglish()+studs[2].getChinese()+studs[2].getMath()));}
+                if (z==4){ System.out.println(("平均:"+(studs[3].getEnglish()+studs[3].getChinese()+studs[3].getMath())/3)+"\n"+"總分:"+(studs[3].getEnglish()+studs[3].getChinese()+studs[3].getMath()));}
+                if (z==5){ System.out.println(("平均:"+(studs[4].getEnglish()+studs[4].getChinese()+studs[4].getMath())/3)+"\n"+"總分:"+(studs[4].getEnglish()+studs[4].getChinese()+studs[4].getMath()));}
+            }
             if (y==5){
                 x=false;
             }
